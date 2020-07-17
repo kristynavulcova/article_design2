@@ -88,6 +88,7 @@ body {
             flex-direction: column;
             justify-content: center;
             width: 60%;
+            position: unset;
         }
 
         .content {
@@ -140,6 +141,7 @@ body {
 
             @include mQ(1400px) {
                 padding: 0em 3.5em 2.4em;
+
             }
 
             img.avatar {
@@ -191,9 +193,11 @@ body {
                 justify-content: center;
                 align-items: center;
 
+
                 @include mQ(1400px) {
                     width: 40px;
                     height: 40px;
+                    position: relative;
                 }
 
                 img {
@@ -223,8 +227,8 @@ body {
             @include mQ(1400px) {
                 border-radius: 12px;
                 width: 245px;
-                bottom: 8.5em;
-                left: 29.6em;
+                bottom: 70px;
+                left: -109px;
             }
 
 
@@ -288,6 +292,7 @@ body {
                 @include mQ(1400px) {
                     visibility: hidden;
                     display: none;
+
                 }
             }
 
