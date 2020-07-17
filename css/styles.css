@@ -109,6 +109,7 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     width: 60%;
+    position: unset;
   }
 }
 
@@ -247,6 +248,7 @@ body {
   #wrapper .right-col .share .icon {
     width: 40px;
     height: 40px;
+    position: relative;
   }
 }
 
@@ -282,8 +284,8 @@ body {
   #wrapper .right-col .share-box {
     border-radius: 12px;
     width: 245px;
-    bottom: 8.5em;
-    left: 29.6em;
+    bottom: 70px;
+    left: -109px;
   }
 }
 
